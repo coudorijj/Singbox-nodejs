@@ -5,9 +5,9 @@ set -e
 
 export TUIC_PORT=${TUIC_PORT:-""}                     # 填入tuic节点端口
 
-export HY2_PORT=${HY2_PORT:-""}                       # 填入hy2节点端口
+export HY2_PORT=${HY2_PORT:-"20313"}                       # 填入hy2节点端口
 
-export REALITY_PORT=${REALITY_PORT:-""}               # 填入reality节点端口（UDP/TCP可以共用1个端口）
+export REALITY_PORT=${REALITY_PORT:-"20313"}               # 填入reality节点端口（UDP/TCP可以共用1个端口）
 
 # ==============================================
 
